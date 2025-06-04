@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
 
-<body class="font-sans">
+<body class="font-sans overflow-x-hidden">
     <!-- Navbar -->
     <nav class="w-full bg-white py-3 px-0 flex items-center justify-between fixed top-0 left-0 z-50 border-b border-gray-100">
         <div class="container mx-auto px-4 relative">
@@ -77,13 +77,13 @@
 
     <!-- Section 1: Self Expression -->
     <section class="w-full min-h-[500px] bg-white flex items-center justify-center py-20 transition-all duration-500 ease-in-out" data-aos="fade-up">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 px-4 items-center">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 px-4 items-center md:px-8 lg:px-12">
             <!-- Kiri: Teks -->
-            <div class="flex flex-col justify-center items-end w-full">
+            <div class="flex flex-col justify-center items-end w-full px-4 md:px-0">
                 <div class="w-full max-w-xl">
                     <p class="text-sm md:text-base text-gray-500 uppercase tracking-widest mb-3 md:mb-4">WHAT WE STAND FOR</p>
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 md:mb-8 leading-tight">Self Expression</h2>
-                    <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 md:mb-6 lg:mb-8 leading-tight">Self Expression</h2>
+                    <p class="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed">
                         Colour is a powerful tool for self-expression in fashion and appearance, allowing individuals to convey their emotions, personality, and unique style. Engaging in personal colour practice enables people to explore and communicate their identity through their clothing and accessories. By choosing colours that resonate personally, individuals can express their unique selves, enhance their appearance, and make confident fashion statements.
                     </p>
                 </div>
@@ -91,10 +91,10 @@
             <!-- Kanan: Gambar -->
             <div class="flex justify-center items-center relative w-full">
                 <div class="w-full max-w-xl flex justify-center items-center">
-                    <div class="w-[420px] h-[420px] md:w-[500px] md:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
+                    <div class="w-[300px] h-[300px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
                         <img src="assets/images/self-expression.jpg" alt="Self Expression" class="w-full h-full object-cover" />
                         <!-- Bulatan nomor -->
-                        <div class="absolute top-4 left-4 w-8 h-8 md:w-10 md:h-10 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-base md:text-xl border-4 border-white shadow" style="z-index:2;">1</div>
+                        <div class="absolute top-4 left-4 w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-sm md:text-base lg:text-xl border-4 border-white shadow" style="z-index:2;">1</div>
                     </div>
                 </div>
             </div>
@@ -103,11 +103,11 @@
 
     <!-- Section 2: Empowerment + Confidence -->
     <section class="w-full min-h-[500px] bg-[#f9cbc2] flex items-center justify-center py-20 transition-all duration-500 ease-in-out" data-aos="fade-up">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 px-4 items-center">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 px-4 items-center md:px-8 lg:px-12">
             <!-- Kiri: Gambar -->
             <div class="flex justify-center items-center relative w-full">
                 <div class="w-full max-w-xl flex justify-center items-center">
-                    <div class="w-[420px] h-[420px] md:w-[500px] md:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
+                    <div class="w-[300px] h-[300px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
                         <img src="assets/images/empowerment.jpg" alt="Empowerment + Confidence" class="w-full h-full object-cover" />
                         <!-- Bulatan nomor -->
                         <div class="absolute top-4 left-4 w-8 h-8 md:w-10 md:h-10 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-base md:text-xl border-4 border-[#f9cbc2] shadow" style="z-index:2;">2</div>
@@ -115,11 +115,11 @@
                 </div>
             </div>
             <!-- Kanan: Teks -->
-            <div class="flex flex-col justify-center items-start w-full">
+            <div class="flex flex-col justify-center items-start w-full px-4 md:px-0">
                 <div class="w-full max-w-xl">
-                    <p class="text-sm md:text-base text-gray-600 uppercase tracking-widest mb-3 md:mb-4">WHAT WE STAND FOR</p>
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 md:mb-8 leading-tight">Empowerment +<br>Confidence</h2>
-                    <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+                    <p class="text-xs md:text-sm lg:text-base text-gray-600 uppercase tracking-widest mb-2 md:mb-3 lg:mb-4">WHAT WE STAND FOR</p>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 md:mb-6 lg:mb-8 leading-tight">Empowerment +<br>Confidence</h2>
+                    <p class="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed">
                         Wearing colours that make us feel empowered and confident is particularly relevant in the realm of fashion. Colour plays a central role in defining personal style and making fashion statements. Engaging in personal colour practices empowers individuals to curate their wardrobe in alignment with their unique preferences and personality. By selecting colours that resonate with them, individuals can enhance their confidence and self-assurance in their fashion choices.
                     </p>
                 </div>
@@ -129,13 +129,13 @@
 
     <!-- Section 3: Creativity + Innovation -->
     <section class="w-full min-h-[500px] bg-white flex items-center justify-center py-20 transition-all duration-500 ease-in-out" data-aos="fade-up">
-        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 px-4 items-center">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 px-4 items-center md:px-8 lg:px-12">
             <!-- Kiri: Teks -->
-            <div class="flex flex-col justify-center items-end w-full">
+            <div class="flex flex-col justify-center items-end w-full px-4 md:px-0">
                 <div class="w-full max-w-xl">
                     <p class="text-sm md:text-base text-gray-500 uppercase tracking-widest mb-3 md:mb-4">WHAT WE STAND FOR</p>
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 md:mb-8 leading-tight">Creativity +<br>Innovation</h2>
-                    <p class="text-gray-700 text-base md:text-lg leading-relaxed">
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4 md:mb-6 lg:mb-8 leading-tight">Creativity +<br>Innovation</h2>
+                    <p class="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed">
                         Experimenting with colour in fashion fosters creativity and innovation. Personal colour practice encourages individuals to explore unique and unconventional colour combinations in their clothing and accessories. This experimentation helps push fashion boundaries, leading to original and trend-setting styles. By embracing diverse colours, individuals can develop a distinctive fashion sense that reflects their creativity and individuality.
                     </p>
                 </div>
@@ -154,11 +154,36 @@
     </section>
 
     <!-- Section: Step-by-step Colour Analysis Gallery -->
-    <section class="w-full bg-[#cbe9de] py-20 flex flex-col items-center justify-center transition-all duration-500 ease-in-out" data-aos="fade-up">
+    <section class="w-full bg-[#cbe9de] py-20 transition-all duration-500 ease-in-out" data-aos="fade-up">
         <div class="max-w-6xl mx-auto w-full flex flex-col items-center justify-center px-4">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-2 transition-all duration-500 ease-in-out" data-aos="fade-up">Step-by-step Colour Analysis</h2>
             <p class="text-center text-lg text-gray-700 mb-10 max-w-2xl mx-auto transition-all duration-500 ease-in-out" data-aos="fade-up">Unlocking your personal colour spectrum is as simple as taking a few easy steps.</p>
-            <div class="flex flex-row flex-wrap justify-center items-end max-w-fit mx-auto mt-12" style="gap: 100px;">
+            <!-- Mobile: Stack vertically -->
+            <div class="space-y-8 md:hidden">
+                <!-- Gambar 1 -->
+                <div class="w-full max-w-[300px] mx-auto relative">
+                    <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                        <img src="assets/images/step1.jpg" alt="Step 1" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
+                    </div>
+                    <div class="absolute -top-4 -left-4 w-8 h-8 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-xs border-4 border-white shadow">1</div>
+                </div>
+                <!-- Gambar 2 -->
+                <div class="w-full max-w-[300px] mx-auto relative">
+                    <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                        <img src="assets/images/step2.jpg" alt="Step 2" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
+                    </div>
+                    <div class="absolute -top-4 -left-4 w-8 h-8 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-xs border-4 border-white shadow">2</div>
+                </div>
+                <!-- Gambar 3 -->
+                <div class="w-full max-w-[300px] mx-auto relative">
+                    <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                        <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
+                    </div>
+                    <div class="absolute -top-4 -left-4 w-8 h-8 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-xs border-4 border-white shadow">3</div>
+                </div>
+            </div>
+            <!-- Desktop: Horizontal layout -->
+            <div class="hidden md:flex flex-row flex-wrap justify-center items-end max-w-fit mx-auto mt-12" style="gap: 100px;">
                 <!-- Gambar 1 -->
                 <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
                     <img src="assets/images/step1.jpg" alt="Step 1" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
@@ -169,8 +194,7 @@
                 </div>
                 <!-- Gambar 3 -->
                 <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
-                <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;">
-                    <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover" />
+                    <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                 </div>
             </div>
         </div>
