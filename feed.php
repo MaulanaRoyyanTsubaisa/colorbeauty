@@ -45,22 +45,42 @@
         </div>
     </nav>
     <!-- Hero Section -->
-    <section class="w-full bg-[#fbb8ad] py-16 md:py-24 flex flex-col items-center">
-      <div class="flex flex-col md:flex-row items-end justify-center gap-8">
+    <!-- Mobile View -->
+    <section class="w-full bg-[#fbb8ad] flex md:hidden flex-col items-center justify-center min-h-[90vh] pt-32 pb-16 px-8">
+      <div class="flex flex-col items-center justify-center gap-4">
         <!-- Arch 1 -->
-<div class="w-64 h-96 overflow-hidden" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z');">   
+        <div class="w-64 h-96 overflow-hidden mb-4" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z'); transform: scale(1.2); transform-origin: center;">
           <img src="assets/images/feed1.jpg" alt="Feed 1" class="w-full h-full object-cover" />
         </div>
         <!-- Arch 2 -->
-<div class="w-64 h-96 overflow-hidden" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z');">   
+        <div class="w-64 h-96 overflow-hidden mb-4" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z'); transform: scale(1.2); transform-origin: center;">
           <img src="assets/images/feed2.jpg" alt="Feed 2" class="w-full h-full object-cover" />
         </div>
         <!-- Arch 3 -->
-<div class="w-64 h-96 overflow-hidden" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z');">   
+        <div class="w-64 h-96 overflow-hidden mb-4" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z'); transform: scale(1.2); transform-origin: center;">
           <img src="assets/images/feed3.jpg" alt="Feed 3" class="w-full h-full object-cover" />
         </div>
       </div>
-      <h2 class="text-3xl md:text-5xl font-bold text-[#d45a2a] text-center mt-8">Colourful story to te  ll</h2>
+      <h2 class="text-3xl md:text-5xl font-bold text-[#d45a2a] text-center mt-4">Colourful story to tell</h2>
+    </section>
+
+    <!-- Desktop View -->
+    <section class="w-full bg-[#fbb8ad] hidden md:flex flex-col items-center justify-center min-h-[60vh] py-16 md:py-24">
+      <div class="flex flex-col md:flex-row items-end justify-center gap-13 pt-32">
+        <!-- Arch 1 -->
+        <div class="w-64 h-96 overflow-hidden" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z'); transform: scale(1.2); transform-origin: center;">
+          <img src="assets/images/feed1.jpg" alt="Feed 1" class="w-full h-full object-cover" />
+        </div>
+        <!-- Arch 2 -->
+        <div class="w-64 h-96 overflow-hidden" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z'); transform: scale(1.2); transform-origin: center;">
+          <img src="assets/images/feed2.jpg" alt="Feed 2" class="w-full h-full object-cover" />
+        </div>
+        <!-- Arch 3 -->
+        <div class="w-64 h-96 overflow-hidden" style="clip-path: path('M0 300 L0 100 A100 100 0 0 1 200 100 L200 300 Z'); transform: scale(1.2); transform-origin: center;">
+          <img src="assets/images/feed3.jpg" alt="Feed 3" class="w-full h-full object-cover" />
+        </div>
+      </div>
+      <h2 class="text-3xl md:text-5xl font-bold text-[#d45a2a] text-center -mt-8">Colourful story to tell</h2>
     </section>
     <!-- Feed Grid Section -->
     <section class="w-full bg-white py-12">

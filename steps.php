@@ -93,8 +93,7 @@
                 <div class="w-full max-w-xl flex justify-center items-center">
                     <div class="w-[300px] h-[300px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
                         <img src="assets/images/self-expression.jpg" alt="Self Expression" class="w-full h-full object-cover" />
-                        <!-- Bulatan nomor -->
-                        <div class="absolute top-4 left-4 w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-sm md:text-base lg:text-xl border-4 border-white shadow" style="z-index:2;">1</div>
+
                     </div>
                 </div>
             </div>
@@ -109,8 +108,7 @@
                 <div class="w-full max-w-xl flex justify-center items-center">
                     <div class="w-[300px] h-[300px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
                         <img src="assets/images/empowerment.jpg" alt="Empowerment + Confidence" class="w-full h-full object-cover" />
-                        <!-- Bulatan nomor -->
-                        <div class="absolute top-4 left-4 w-8 h-8 md:w-10 md:h-10 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-base md:text-xl border-4 border-[#f9cbc2] shadow" style="z-index:2;">2</div>
+                   
                     </div>
                 </div>
             </div>
@@ -145,8 +143,7 @@
                 <div class="w-full max-w-xl flex justify-center items-center">
                     <div class="w-[420px] h-[420px] md:w-[500px] md:h-[500px] bg-transparent flex-shrink-0 relative" style="clip-path: polygon(0 0, 15% 100%, 100% 100%, 85% 0);">
                         <img src="assets/images/creativity.jpg" alt="Creativity + Innovation" class=" w-full h-full object-cover" />
-                        <!-- Bulatan nomor -->
-                        <div class="absolute top-4 left-4 w-8 h-8 md:w-10 md:h-10 bg-[#c9a96a] rounded-full flex items-center justify-center text-white font-bold text-base md:text-xl border-4 border-white shadow" style="z-index:2;">3</div>
+                     
                     </div>
                 </div>
             </div>
@@ -154,32 +151,35 @@
     </section>
 
     <!-- Section: Step-by-step Colour Analysis Gallery -->
-    <section class="w-full bg-[#cbe9de] py-20 transition-all duration-500 ease-in-out" data-aos="fade-up">
+    <section class="w-full bg-[#cbe9de] py-32 md:py-20 transition-all duration-500 ease-in-out" data-aos="fade-up">
         <div class="max-w-6xl mx-auto w-full flex flex-col items-center justify-center px-4">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-2 transition-all duration-500 ease-in-out" data-aos="fade-up">Step-by-step Colour Analysis</h2>
-            <p class="text-center text-lg text-gray-700 mb-10 max-w-2xl mx-auto transition-all duration-500 ease-in-out" data-aos="fade-up">Unlocking your personal colour spectrum is as simple as taking a few easy steps.</p>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 md:mb-2 transition-all duration-500 ease-in-out" data-aos="fade-up">Step-by-step Colour Analysis</h2>
+            <p class="text-center  text-lg text-gray-700 mb-20 md:mb-10 max-w-2xl mx-auto transition-all duration-500 ease-in-out" data-aos="fade-up">Unlocking your personal colour spectrum is as simple as taking a few easy steps.</p>
             <!-- Mobile: Stack vertically -->
-            <div class="space-y-8 md:hidden">
+            <div class="space-y-48 md:hidden">
                 <!-- Gambar 1 -->
-                <div class="w-full max-w-[300px] mx-auto relative">
-                    <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                <div class="w-full max-w-[400px] mx-auto relative mt-20">
+                    <div class="w-[150px] h-[220px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(2.0); transform-origin: center;" data-aos="fade-up">
                         <img src="assets/images/step1.jpg" alt="Step 1" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                     </div>
-                    <div class="absolute -top-4 -left-4 w-8 h-8 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-xs border-4 border-white shadow">1</div>
+                 
                 </div>
                 <!-- Gambar 2 -->
-                <div class="w-full max-w-[300px] mx-auto relative">
-                    <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                <div class="w-full max-w-[400px] mx-auto relative mt-20">
+                    <div class="w-[150px] h-[220px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(2.0); transform-origin: center;" data-aos="fade-up">
                         <img src="assets/images/step2.jpg" alt="Step 2" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                     </div>
-                    <div class="absolute -top-4 -left-4 w-8 h-8 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-xs border-4 border-white shadow">2</div>
+             
                 </div>
                 <!-- Gambar 3 -->
-                <div class="w-full max-w-[300px] mx-auto relative">
-                    <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                <div class="w-full max-w-[400px] mx-auto relative mt-20">
+                    <div class="w-[150px] h-[220px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(2.0); transform-origin: center;" data-aos="fade-up">
                         <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                     </div>
-                    <div class="absolute -top-4 -left-4 w-8 h-8 bg-[#d6b1b7] rounded-full flex items-center justify-center text-white font-bold text-xs border-4 border-white shadow">3</div>
+         
+                </div>
+                    </div>
+                   
                 </div>
             </div>
             <!-- Desktop: Horizontal layout -->
