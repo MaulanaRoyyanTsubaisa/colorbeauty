@@ -253,6 +253,7 @@
         </div>
     </section>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <!-- Booking Modal -->
     <div id="bookingModal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center p-4">
         <div class="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
@@ -571,6 +572,8 @@
             if (e.target === this) {
                 closeSuccessModal();
 =======
+=======
+>>>>>>> b2a031f224c2d567f4bf8f45103126ec25c02189
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -610,6 +613,9 @@
                 // Hide animation
                 mobileMenu.classList.remove('opacity-100', 'translate-x-0', 'pointer-events-auto');
                 mobileMenu.classList.add('opacity-0', 'translate-x-8', 'pointer-events-none');
+<<<<<<< HEAD
+>>>>>>> b2a031f224c2d567f4bf8f45103126ec25c02189
+=======
 >>>>>>> b2a031f224c2d567f4bf8f45103126ec25c02189
             }
         });
