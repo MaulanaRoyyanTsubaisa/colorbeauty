@@ -219,18 +219,18 @@ document.addEventListener("DOMContentLoaded", function () {
       openIgModal(0);
     });
   } else {
-    alert(
-      "Hero image not found! Pastikan class hero-modal-img ada di gambar hero."
-    );
+    // alert(
+    //   "Hero image not found! Pastikan class hero-modal-img ada di gambar hero."
+    // );
     console.error("Hero image not found!");
   }
 
   // Add click event to gallery images (shift index by 1)
   const igGalleryImgs = document.querySelectorAll(".ig-gallery-img");
   if (igGalleryImgs.length === 0) {
-    alert(
-      "Gambar galeri Instagram tidak ditemukan! Pastikan class ig-gallery-img ada di gambar galeri."
-    );
+    // alert(
+    //   "Gambar galeri Instagram tidak ditemukan! Pastikan class ig-gallery-img ada di gambar galeri."
+    // );
     console.error("Instagram gallery images not found!");
   }
   igGalleryImgs.forEach((img, i) => {

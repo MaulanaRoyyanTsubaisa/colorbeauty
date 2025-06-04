@@ -28,17 +28,36 @@
 
 <body class="font-sans">
     <!-- Navbar -->
-    <nav class="w-full bg-white py-6 px-0 md:px-0 flex items-center justify-between fixed top-0 left-0 z-50 border-b border-gray-100">
-        <div class="container mx-auto flex items-center justify-between px-4">
-            <div class="flex flex-col leading-none select-none">
-                <span class="text-4xl font-bold text-logo tracking-tight" style="font-family: 'Pacifico', cursive;">colour</span>
-                <span class="text-logo text-lg -mt-2 ml-2" style="font-family: 'Pacifico', cursive;">by utie</span>
+    <nav class="w-full bg-white py-3 px-0 flex items-center justify-between fixed top-0 left-0 z-50 border-b border-gray-100">
+        <div class="container mx-auto px-4 relative">
+            <!-- Mobile Header: X & Logo -->
+            <div class="flex w-full items-center justify-between md:hidden">
+                <button id="navToggle" class="text-3xl text-gray-800 focus:outline-none transition-transform duration-300">
+                    <i id="navIcon" class="fas fa-bars transition-transform duration-300"></i>
+                </button>
+                <a href="index.php" class="mx-auto">
+                    <img src="assets/images/logo.png" alt="colour by utie" class="h-12 w-auto logo-shadow" />
+                </a>
+                <div class="w-8"></div>
             </div>
-            <ul class="flex space-x-8 text-lg font-medium">
-                <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors underline">Analyze Me</a></li>
-                <li><a href="index.php#steps" class="text-gray-800 hover:text-logo transition-colors">Step by Step</a></li>
-                <li><a href="index.php#story" class="text-gray-800 hover:text-logo transition-colors">Our Story</a></li>
-                <li><a href="index.php#feed" class="text-gray-800 hover:text-logo transition-colors">Feed</a></li>
+            <!-- Desktop Logo & Menu -->
+            <div class="hidden md:flex items-center justify-between w-full">
+                <a href="index.php" class="flex items-center select-none mx-auto md:ml-16 md:mr-8">
+                    <img src="assets/images/logo.png" alt="colour by utie" class="h-16 w-auto logo-shadow" />
+                </a>
+                <ul class="flex space-x-6 text-xs font-medium mr-4">
+                    <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4 underline">Analyze Me</a></li>
+                    <li><a href="steps.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Step by Step</a></li>
+                    <li><a href="our-story.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Our Story</a></li>
+                    <li><a href="feed.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Feed</a></li>
+                </ul>
+            </div>
+            <!-- Mobile Menu -->
+            <ul id="mobileMenu" class="fixed top-16 left-0 w-full bg-white shadow-md flex flex-col items-end space-y-4 text-base font-medium py-6 px-8 z-50 hidden md:hidden text-right transition-all duration-500 opacity-0 translate-x-8 pointer-events-none">
+                <li><a href="analyze.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4 underline">Analyze Me</a></li>
+                <li><a href="steps.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Step by Step</a></li>
+                <li><a href="our-story.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Our Story</a></li>
+                <li><a href="feed.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Feed</a></li>
             </ul>
         </div>
     </nav>
@@ -211,6 +230,48 @@
             <a href="#" class="text-black text-2xl hover:text-gray-600"><i class="fab fa-tiktok"></i></a>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: "ease-in-out",
+            once: true
+        });
+    </script>
+    <script>
+        // Mobile nav toggle with icon animation & menu slide/fade
+        const navToggle = document.getElementById('navToggle');
+        const navIcon = document.getElementById('navIcon');
+        const mobileMenu = document.getElementById('mobileMenu');
+        navToggle && navToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                navIcon.classList.remove('fa-xmark', 'rotate-90');
+                navIcon.classList.add('fa-bars');
+                // Hide animation
+                mobileMenu.classList.remove('opacity-100', 'translate-x-0', 'pointer-events-auto');
+                mobileMenu.classList.add('opacity-0', 'translate-x-8', 'pointer-events-none');
+            } else {
+                navIcon.classList.remove('fa-bars');
+                navIcon.classList.add('fa-xmark', 'rotate-90');
+                // Show animation
+                mobileMenu.classList.remove('opacity-0', 'translate-x-8', 'pointer-events-none');
+                mobileMenu.classList.add('opacity-100', 'translate-x-0', 'pointer-events-auto');
+            }
+        });
+        // Close mobile menu on click outside
+        document.addEventListener('click', (e) => {
+            if (!navToggle.contains(e.target) && !mobileMenu.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+                navIcon.classList.remove('fa-xmark', 'rotate-90');
+                navIcon.classList.add('fa-bars');
+                // Hide animation
+                mobileMenu.classList.remove('opacity-100', 'translate-x-0', 'pointer-events-auto');
+                mobileMenu.classList.add('opacity-0', 'translate-x-8', 'pointer-events-none');
+            }
+        });
+    </script>
 </body>
 
 </html>
