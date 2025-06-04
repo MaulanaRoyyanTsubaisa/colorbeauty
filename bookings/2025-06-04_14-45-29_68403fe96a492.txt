@@ -1,0 +1,9 @@
+{
+    "service": "Analysis for Two",
+    "description": "Personal Colour Analysis for Two",
+    "duration": "120",
+    "price": "Rp2888000.00",
+    "date": "2025-06-18",
+    "time": "12:00 PM",
+    "timestamp": "2025-06-04T12:45:29.432Z"
+}

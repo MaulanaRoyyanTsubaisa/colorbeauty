@@ -1,0 +1,9 @@
+{
+    "service": "Express for One",
+    "description": "Personal Colour Analysis for One Person \u2013 Express",
+    "duration": "60",
+    "price": "Rp855000.00",
+    "date": "2025-06-04",
+    "time": "09:00 AM",
+    "timestamp": "2025-06-04T12:32:05.956Z"
+}

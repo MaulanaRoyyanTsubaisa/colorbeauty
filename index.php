@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pak Nazar - Color Analysis</title>
+    <title>Color Analysis</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -122,7 +123,7 @@
                 <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
                     <img src="assets/images/service1.jpg" alt="Analysis for One" class="w-full h-80 object-cover rounded-none mb-6" />
                     <h3 class="text-2xl font-bold mb-2 text-center">Analysis for One</h3>
-                    <a href="#book" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
+                    <a href="#ef1" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
                     <p class="text-center text-gray-800">Find your skin tone, eye colour, and hair colour assessment, along with warm/cool tone analysis and 12-tone seasonal analysis, using detailed and comprehensive drapes in a <span class="font-bold">90-minute session.</span></p>
                 </div>
                 <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300">
@@ -272,10 +273,10 @@
         <div class="container mx-auto px-4 text-center">
             <div class="mb-4">
                 <a href="#" target="_blank" class="text-white hover:text-secondary transition-colors">
-                    <i class="fab fa-instagram"></i> @pak_nazar
+                    <i class="fab fa-instagram"></i> @colorbyutie
                 </a>
             </div>
-            <p>&copy; <?php echo date('Y'); ?> Pak Nazar. All rights reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> ColorByUtie. All rights reserved.</p>
         </div>
     </footer>
 
@@ -284,3 +285,5 @@
 </body>
 
 </html>
+=======
+>>>>>>> b2a031f224c2d567f4bf8f45103126ec25c02189

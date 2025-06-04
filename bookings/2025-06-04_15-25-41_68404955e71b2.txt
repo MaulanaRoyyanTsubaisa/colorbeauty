@@ -1,0 +1,17 @@
+{
+    "order_id": "ORDER-20250604152541-68404955e7030",
+    "service": "Express for One",
+    "description": "Personal Colour Analysis for One Person \u2013 Express",
+    "duration": "60",
+    "price": "Rp855000.00",
+    "date": "2025-06-10",
+    "time": "09:00 AM",
+    "customer": {
+        "email": "test@example.com",
+        "fullName": "John Doe",
+        "country": "Indonesia",
+        "phone": "81234567890"
+    },
+    "payment_status": "pending",
+    "timestamp": "2025-06-04 15:25:41"
+}

@@ -219,18 +219,18 @@ document.addEventListener("DOMContentLoaded", function () {
       openIgModal(0);
     });
   } else {
-    alert(
-      "Hero image not found! Pastikan class hero-modal-img ada di gambar hero."
-    );
+    // alert(
+    //   "Hero image not found! Pastikan class hero-modal-img ada di gambar hero."
+    // );
     console.error("Hero image not found!");
   }
 
   // Add click event to gallery images (shift index by 1)
   const igGalleryImgs = document.querySelectorAll(".ig-gallery-img");
   if (igGalleryImgs.length === 0) {
-    alert(
-      "Gambar galeri Instagram tidak ditemukan! Pastikan class ig-gallery-img ada di gambar galeri."
-    );
+    // alert(
+    //   "Gambar galeri Instagram tidak ditemukan! Pastikan class ig-gallery-img ada di gambar galeri."
+    // );
     console.error("Instagram gallery images not found!");
   }
   igGalleryImgs.forEach((img, i) => {
@@ -273,4 +273,43 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }
   });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const snapButton = document.getElementById("pay-button");
+
+  if (snapButton) {
+    snapButton.addEventListener("click", async function () {
+      try {
+        const response = await fetch("get-snap-token.php");
+        const data = await response.json();
+
+        if (data.snap_token) {
+          snap.pay(data.snap_token, {
+            onSuccess: function (result) {
+              alert("Pembayaran berhasil!");
+              console.log("Success:", result);
+            },
+            onPending: function (result) {
+              alert("Pembayaran masih pending.");
+              console.log("Pending:", result);
+            },
+            onError: function (result) {
+              alert("Terjadi kesalahan saat pembayaran.");
+              console.error("Error:", result);
+            },
+            onClose: function () {
+              alert("Kamu menutup popup tanpa menyelesaikan pembayaran.");
+            },
+          });
+        } else {
+          alert("Gagal mendapatkan snap token.");
+          console.error("Snap token error:", data.error);
+        }
+      } catch (err) {
+        alert("Terjadi kesalahan.");
+        console.error("Fetch error:", err);
+      }
+    });
+  }
 });
