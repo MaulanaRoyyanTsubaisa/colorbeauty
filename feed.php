@@ -24,11 +24,11 @@
                 <div class="w-8"></div>
             </div>
             <!-- Desktop Logo & Menu -->
-            <div class="hidden md:flex items-center justify-between w-full">
+            <div class="hidden md:flex items-center justify-between w-full ml-16">
                 <a href="index.php" class="flex items-center select-none mx-auto md:ml-16 md:mr-8">
                     <img src="assets/images/logo.png" alt="colour by utie" class="h-16 w-auto logo-shadow" />
                 </a>
-                <ul class="flex space-x-6 text-xs font-medium mr-4">
+                <ul class="flex space-x-6 text-base font-medium mr-20">
                     <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Analyze Me</a></li>
                     <li><a href="steps.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Step by Step</a></li>
                     <li><a href="our-story.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Our Story</a></li>

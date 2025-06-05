@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,17 +30,36 @@
 
 <body class="font-sans">
     <!-- Navbar -->
-    <nav class="w-full bg-white py-6 px-0 md:px-0 flex items-center justify-between fixed top-0 left-0 z-50 border-b border-gray-100">
-        <div class="container mx-auto flex items-center justify-between px-4">
-            <div class="flex flex-col leading-none select-none">
-                <span class="text-4xl font-bold text-logo tracking-tight" style="font-family: 'Pacifico', cursive;">colour</span>
-                <span class="text-logo text-lg -mt-2 ml-2" style="font-family: 'Pacifico', cursive;">by utie</span>
+    <nav class="w-full bg-white py-3 px-0 flex items-center justify-between fixed top-0 left-0 z-50 border-b border-gray-100">
+        <div class="container mx-auto px-4 relative">
+            <!-- Mobile Header: X & Logo -->
+            <div class="flex w-full items-center justify-between md:hidden ">
+                <button id="navToggle" class="text-3xl text-gray-800 focus:outline-none transition-transform duration-300">
+                    <i id="navIcon" class="fas fa-bars transition-transform duration-300"></i>
+                </button>
+                <a href="index.php" class="mx-auto">
+                    <img src="assets/images/logo.png" alt="colour by utie" class="h-12 w-auto logo-shadow" />
+                </a>
+                <div class="w-8"></div>
             </div>
-            <ul class="flex space-x-8 text-lg font-medium">
-                <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors">Analyze Me</a></li>
-                <li><a href="#steps" class="text-gray-800 hover:text-logo transition-colors">Step by Step</a></li>
-                <li><a href="#story" class="text-gray-800 hover:text-logo transition-colors">Our Story</a></li>
-                <li><a href="#feed" class="text-gray-800 hover:text-logo transition-colors">Feed</a></li>
+            <!-- Desktop Logo & Menu -->
+            <div class="hidden md:flex items-center justify-between w-full ml-16">
+                <a href="index.php" class="flex items-center select-none mx-auto md:ml-16 md:mr-8">
+                    <img src="assets/images/logo.png" alt="colour by utie" class="h-16 w-auto logo-shadow" />
+                </a>
+                <ul class="flex space-x-6 text-base font-medium mr-20">
+                    <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4 underline">Analyze Me</a></li>
+                    <li><a href="steps.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Step by Step</a></li>
+                    <li><a href="our-story.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Our Story</a></li>
+                    <li><a href="feed.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Feed</a></li>
+                </ul>
+            </div>
+            <!-- Mobile Menu -->
+            <ul id="mobileMenu" class="fixed top-16 left-0 w-full bg-white shadow-md flex flex-col items-end space-y-4 text-base font-medium py-6 px-8 z-50 hidden md:hidden text-right transition-all duration-500 opacity-0 translate-x-8 pointer-events-none">
+                <li><a href="analyze.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4 underline">Analyze Me</a></li>
+                <li><a href="steps.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Step by Step</a></li>
+                <li><a href="our-story.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Our Story</a></li>
+                <li><a href="feed.php" class="block text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Feed</a></li>
             </ul>
         </div>
     </nav>
@@ -51,9 +68,9 @@
     <section class="w-full min-h-[600px] md:min-h-[700px] flex items-center justify-center bg-[#faa53d] pt-32 pb-12" data-aos="fade-up">
         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
             <!-- Left: Text -->
-            <div class="flex-1 flex flex-col justify-center items-start max-w-xl" data-aos="fade-right" data-aos-delay="100">
-                <h1 class="text-white text-3xl md:text-5xl font-semibold mb-10 leading-tight text-left">"If you know your colours, then<br>you're one step closer to know<br>yourself."</h1>
-                <a href="#book" class="mt-4 px-8 py-4 bg-white text-[#faa53d] font-bold uppercase tracking-wider rounded-none shadow hover:bg-gray-100 transition-all text-base md:text-lg" data-aos="fade-right" data-aos-delay="200">Book Now</a>
+            <div class="flex-1 flex flex-col justify-center items-start max-w-xl ml-16 " data-aos="fade-right" data-aos-delay="100">
+                <h1 class="text-white text-3xl md:text-5xl font-semibold mb-10 leading-tight text-left ">"If you know your colours, then<br>you're one step closer to know<br>yourself."</h1>
+            <a href="analyze.php" class="mt-4 px-8 py-4 bg-white text-[#faa53d] font-bold uppercase tracking-wider rounded-none shadow hover:bg-gray-100 transition-all text-base md:text-lg" data-aos="fade-right" data-aos-delay="200">Book Now</a>
             </div>
             <!-- Right: Image with Half Circle -->
             <div class="flex-1 flex justify-center items-center relative w-full md:w-auto" data-aos="fade-left" data-aos-delay="100">
@@ -124,19 +141,19 @@
                 <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
                     <img src="assets/images/service1.jpg" alt="Analysis for One" class="w-full h-80 object-cover rounded-none mb-6" />
                     <h3 class="text-2xl font-bold mb-2 text-center">Analysis for One</h3>
-                    <a href="#ef1" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
+                    <a href="checkout.php" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
                     <p class="text-center text-gray-800">Find your skin tone, eye colour, and hair colour assessment, along with warm/cool tone analysis and 12-tone seasonal analysis, using detailed and comprehensive drapes in a <span class="font-bold">90-minute session.</span></p>
                 </div>
                 <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300">
                     <img src="assets/images/service2.jpg" alt="Analysis for Two" class="w-full h-80 object-cover rounded-none mb-6" />
                     <h3 class="text-2xl font-bold mb-2 text-center">Analysis for Two</h3>
-                    <a href="#book" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
+                    <a href="checkout.php" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
                     <p class="text-center text-gray-800">Find your skin tone, eye colour, and hair colour assessment, along with warm/cool tone analysis and 12-tone seasonal analysis, using detailed and comprehensive drapes in a <span class="font-bold">120-minute session.</span></p>
                 </div>
                 <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="400">
                     <img src="assets/images/service3.jpg" alt="Express for One" class="w-full h-80 object-cover rounded-none mb-6" />
                     <h3 class="text-2xl font-bold mb-2 text-center">Express for One</h3>
-                    <a href="#book" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
+                    <a href="checkout.php" class="mb-4 px-8 py-2 bg-black text-white font-bold uppercase tracking-wider text-base hover:bg-white hover:text-black border-2 border-black transition-colors">BOOK</a>
                     <p class="text-center text-gray-800">Find your skin tone, eye colour, and hair colour assessment, along with warm/cool tone analysis and 12-tone seasonal analysis, using detailed and comprehensive drapes in a <span class="font-bold">45-minute session.</span></p>
                 </div>
             </div>
@@ -284,9 +301,4 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
-
 </html>
-=======
->>>>>>> b2a031f224c2d567f4bf8f45103126ec25c02189
-=======
->>>>>>> b2a031f224c2d567f4bf8f45103126ec25c02189
