@@ -1,16 +1,15 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Analyze Me - BycolorBeauty</title>
+    <title>Analyze Me - Pak Nazar</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <!-- Flatpickr CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <script>
         tailwind.config = {
             theme: {
@@ -30,16 +29,32 @@
                     },
                     keyframes: {
                         fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' }
+                            '0%': {
+                                opacity: '0'
+                            },
+                            '100%': {
+                                opacity: '1'
+                            }
                         },
                         slideUp: {
-                            '0%': { transform: 'translateY(20px)', opacity: '0' },
-                            '100%': { transform: 'translateY(0)', opacity: '1' }
+                            '0%': {
+                                transform: 'translateY(20px)',
+                                opacity: '0'
+                            },
+                            '100%': {
+                                transform: 'translateY(0)',
+                                opacity: '1'
+                            }
                         },
                         slideDown: {
-                            '0%': { transform: 'translateY(-20px)', opacity: '0' },
-                            '100%': { transform: 'translateY(0)', opacity: '1' }
+                            '0%': {
+                                transform: 'translateY(-20px)',
+                                opacity: '0'
+                            },
+                            '100%': {
+                                transform: 'translateY(0)',
+                                opacity: '1'
+                            }
                         }
                     }
                 }
@@ -224,9 +239,9 @@
                     <div class="w-48 h-48 bg-[#f7a08a] rounded-t-full rounded-b-none flex items-end justify-center mb-6 overflow-hidden">
                         <img src="assets/images/improve2.png" alt="Improve 2" class="h-40 object-contain" />
                     </div>
+                    <!-- Card 3 -->
                     <p class="text-gray-800">Personal colour palette is crucial for perfecting makeup. Identifying shades that complement your skin tone, eyes, and hair enhances your natural beauty. These colours create a polished, radiant look, boosting your confidence.</p>
                 </div>
-                <!-- Card 3 -->
                 <div class="flex flex-col items-center text-center">
                     <div class="w-48 h-48 bg-[#f7a08a] rounded-t-full rounded-b-none flex items-end justify-center mb-6 overflow-hidden">
                         <img src="assets/images/improve3.png" alt="Improve 3" class="h-40 object-contain" />

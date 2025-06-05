@@ -108,7 +108,7 @@
                 <div class="w-full max-w-xl flex justify-center items-center">
                     <div class="w-[300px] h-[300px] md:w-[420px] md:h-[420px] lg:w-[500px] lg:h-[500px] bg-transparent flex-shrink-0" style="clip-path: xywh(0 0 100% 100% round 0 40%);">
                         <img src="assets/images/empowerment.jpg" alt="Empowerment + Confidence" class="w-full h-full object-cover" />
-                   
+
                     </div>
                 </div>
             </div>
@@ -141,9 +141,9 @@
             <!-- Kanan: Gambar dengan clip-path polygon dan bulatan nomor -->
             <div class="flex justify-center items-center relative w-full">
                 <div class="w-full max-w-xl flex justify-center items-center">
-                    <div class="w-[420px] h-[420px] md:w-[500px] md:h-[500px] bg-transparent flex-shrink-0 relative" style="clip-path: polygon(0 0, 15% 100%, 100% 100%, 85% 0);">
+                    <div class="w-[320px] h-[320px] md:w-[500px] md:h-[500px] bg-transparent flex-shrink-0 relative" style="clip-path: polygon(0 0, 15% 100%, 100% 100%, 85% 0);">
                         <img src="assets/images/creativity.jpg" alt="Creativity + Innovation" class=" w-full h-full object-cover" />
-                     
+
                     </div>
                 </div>
             </div>
@@ -162,41 +162,41 @@
                     <div class="w-[150px] h-[220px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(2.0); transform-origin: center;" data-aos="fade-up">
                         <img src="assets/images/step1.jpg" alt="Step 1" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                     </div>
-                 
+
                 </div>
                 <!-- Gambar 2 -->
                 <div class="w-full max-w-[400px] mx-auto relative mt-20">
                     <div class="w-[150px] h-[220px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(2.0); transform-origin: center;" data-aos="fade-up">
                         <img src="assets/images/step2.jpg" alt="Step 2" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                     </div>
-             
+
                 </div>
                 <!-- Gambar 3 -->
                 <div class="w-full max-w-[400px] mx-auto relative mt-20">
                     <div class="w-[150px] h-[220px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(2.0); transform-origin: center;" data-aos="fade-up">
                         <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
                     </div>
-         
-                </div>
-                    </div>
-                   
+
                 </div>
             </div>
-            <!-- Desktop: Horizontal layout -->
-            <div class="hidden md:flex flex-row flex-wrap justify-center items-end max-w-fit mx-auto mt-12" style="gap: 100px;">
-                <!-- Gambar 1 -->
-                <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
-                    <img src="assets/images/step1.jpg" alt="Step 1" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
-                </div>
-                <!-- Gambar 2 -->
-                <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
-                    <img src="assets/images/step2.jpg" alt="Step 2" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
-                </div>
-                <!-- Gambar 3 -->
-                <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
-                    <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
-                </div>
+
+        </div>
+        </div>
+        <!-- Desktop: Horizontal layout -->
+        <div class="hidden md:flex flex-row flex-wrap justify-center items-end max-w-fit mx-auto mt-12" style="gap: 100px;">
+            <!-- Gambar 1 -->
+            <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                <img src="assets/images/step1.jpg" alt="Step 1" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
             </div>
+            <!-- Gambar 2 -->
+            <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                <img src="assets/images/step2.jpg" alt="Step 2" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
+            </div>
+            <!-- Gambar 3 -->
+            <div class="w-[120px] h-[180px] md:w-[180px] md:h-[260px] bg-gray-200 overflow-hidden transition-all duration-500 ease-in-out" style="clip-path: path('M200 50V0L100 0V33.98C99.99 6.375 77.6 0 50 0H0V100H34C6.38 100 0 122.39 0 150V200H100V166C100 193.61 122.39 200 150 200H200V100H166.02C193.63 99.99 200 77.6 200 50Z'); transform: scale(1.5); transform-origin: top left;" data-aos="fade-up">
+                <img src="assets/images/step3.jpg" alt="Step 3" class="w-full h-full object-cover transition-all duration-500 ease-in-out" />
+            </div>
+        </div>
         </div>
     </section>
 
