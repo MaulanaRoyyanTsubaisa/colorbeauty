@@ -33,22 +33,26 @@
         <div class="container mx-auto px-4 relative">
             <div class="flex w-full items-center justify-between">
                 <!-- Mobile Menu Button - Left side -->
-                <button id="navToggle" class="md:hidden text-3xl text-gray-800 focus:outline-none">
-                    <i id="navIcon" class="fas fa-bars"></i>
+                <button id="navToggle" class="md:hidden text-3xl text-gray-800 focus:outline-none transition-transform duration-300">
+                    <i id="navIcon" class="fas fa-bars transition-transform duration-300"></i>
                 </button>
 
-                <!-- Logo - Centered -->
-                <a href="index.php" class="absolute left-1/2 transform -translate-x-1/2 md:static md:transform-none">
+                <a href="index.php" class="mx-auto md:hidden">
                     <img src="assets/images/logo.png" alt="colour by utie" class="h-12 w-auto logo-shadow" />
                 </a>
-
                 <!-- Desktop Menu - Right aligned -->
-                <ul class="hidden md:flex space-x-6 text-xs font-medium ml-auto">
-                    <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors">Analyze Me</a></li>
-                    <li><a href="steps.php" class="text-gray-800 hover:text-logo transition-colors">Step by Step</a></li>
-                    <li><a href="our-story.php" class="text-gray-800 hover:text-logo transition-colors">Our Story</a></li>
-                    <li><a href="feed.php" class="text-gray-800 hover:text-logo transition-colors">Feed</a></li>
-                </ul>
+                <div class="hidden md:flex items-center justify-between w-full">
+                    <a href="index.php" class="flex items-center select-none mx-auto md:ml-16 md:mr-8">
+                        <img src="assets/images/logo.png" alt="colour by utie" class="h-16 w-auto logo-shadow" />
+                    </a>
+
+                    <ul class="hidden md:flex space-x-6 text-xs font-medium ml-auto">
+                        <li><a href="analyze.php" class="text-gray-800 hover:text-logo transition-colors  hover:underline underline-offset-4">Analyze Me</a></li>
+                        <li><a href="steps.php" class="text-gray-800 hover:text-logo transition-colors  hover:underline underline-offset-4">Step by Step</a></li>
+                        <li><a href="our-story.php" class="text-gray-800 hover:text-logo transition-colors  hover:underline underline-offset-4">Our Story</a></li>
+                        <li><a href="feed.php" class="text-gray-800 hover:text-logo transition-colors hover:underline underline-offset-4">Feed</a></li>
+                    </ul>
+                </div>
 
                 <!-- Spacer for mobile to balance the burger button -->
                 <div class="md:hidden w-8"></div>
